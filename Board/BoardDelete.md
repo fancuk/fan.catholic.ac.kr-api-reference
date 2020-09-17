@@ -12,7 +12,6 @@ fan.catholic.ac.kr 의 API Reference Repository 입니다.
     | key | explanation | type |
     |--- |--- |--- |
     | board_name | 게시판명 | string |
-    | title | 제목 | string |
 
 - response code
     - Header :
