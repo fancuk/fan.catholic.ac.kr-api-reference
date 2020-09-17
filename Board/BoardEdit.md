@@ -1,5 +1,5 @@
-# fan.catholic.ac.kr-api-reference - 팬 게시판 수정 (완료)
-# 의도: 게시글을 수정 할 수 있습니다.
+# fan.catholic.ac.kr-api-reference - 팬 게시판 명 수정 (완료)
+## 의도: 게시판 명을 바꿀 수 있습니다
 
 fan.catholic.ac.kr 의 API Reference Repository 입니다.
 
