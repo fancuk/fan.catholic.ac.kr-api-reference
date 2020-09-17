@@ -1,5 +1,5 @@
 # fan.catholic.ac.kr-api-reference - 관리자 게시판 삭제 (요청)
-# 의도: 게시글을 삭제 할 수 있습니다.
+## 의도: 게시판을 삭제 할 수 있습니다.
 
 fan.catholic.ac.kr 의 API Reference Repository 입니다.
 
