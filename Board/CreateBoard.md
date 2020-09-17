@@ -1,5 +1,5 @@
 # fan.catholic.ac.kr-api-reference - 팬 게시판 추가 (완료)
-# 의도: 게시글을 등록 할 수 있습니다.
+## 의도: 게시판을 생성 할 수 있습니다.
 
 fan.catholic.ac.kr 의 API Reference Repository 입니다.
 
@@ -12,9 +12,6 @@ fan.catholic.ac.kr 의 API Reference Repository 입니다.
     | key | explanation | type |
     |--- |--- |--- |
     | board_name | 게시판명 | string |
-    | title | 제목 | string |
-    | writer | 로그인 된 현재 아이디 | string |
-     | content | 내용 | string |
 
 - response code
     - Header :
