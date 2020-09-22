@@ -40,4 +40,11 @@ fan.catholic.ac.kr 의 API Reference Repository 입니다.
         |--- |--- |--- |
         | add | True | string |
         | token | 발급 토큰(클라이언트에서 저장하세요!) | string |
+        
+    - FAIL RESPONSE
+    
+        | key | explanation | type |
+        |--- |--- |--- |
+        | token | False | string |
+        
 
