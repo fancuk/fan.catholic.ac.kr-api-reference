@@ -18,6 +18,7 @@ fan.catholic.ac.kr 의 API Reference Repository 입니다.
 - response code
     - Header :
         Content-Type : application/json
+        Authorization : token
     - ERROR RESPONSE
     
         |    key   | explanation |   type  |
@@ -39,12 +40,12 @@ fan.catholic.ac.kr 의 API Reference Repository 입니다.
         | key | explanation | type |
         |--- |--- |--- |
         | add | True | string |
-        | token | 발급 토큰(클라이언트에서 저장하세요!) | string |
         
-    - FAIL RESPONSE
+        
+    - FAIL RESPONSE : 임시로 error_code 대신 유지하도록 하겠습니다. 400 409 같은 경우 add : False이며 401경우 token : False 
     
         | key | explanation | type |
         |--- |--- |--- |
+        | add | False | string |
         | token | False | string |
         
-
