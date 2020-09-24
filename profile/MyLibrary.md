@@ -34,3 +34,8 @@ fan.catholic.ac.kr 의 API Reference Repository 입니다.
         |--- |--- |--- |
         | list | Book List | json |
         
+    - FAIL RESPONSE : 임시로 error_code 대신 유지하도록 하겠습니다. 401경우 token : False 
+    
+        | key | explanation | type |
+        |--- |--- |--- |
+        | token | False | string |
