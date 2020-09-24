@@ -35,6 +35,10 @@ fan.catholic.ac.kr 의 API Reference Repository 입니다.
         |--- |--- |--- |
         | reset | True | string |
         
+    - FAIL RESPONSE : 임시로 error_code 대신 유지하도록 하겠습니다. 400 409 같은 경우 reset : False이며 401경우 token : False 
+    
+        | key | explanation | type |
+        |--- |--- |--- |
+        | reset | False | string |
+        | token | False | string |
         
-        - 성공시 => 비밀번호가 초기화 되었습니다 다시 로그인 해주세요!
-        - 실패시 => 초기화가 실패 되었습니다 운영자에게 문의 해주세요!
