@@ -38,4 +38,9 @@ fan.catholic.ac.kr 의 API Reference Repository 입니다.
         |--- |--- |--- |
         | delete | True | string |
         
-
+    - FAIL RESPONSE : 임시로 error_code 대신 유지하도록 하겠습니다. 400 409 같은 경우 delete : False이며 401경우 token : False 
+    
+        | key | explanation | type |
+        |--- |--- |--- |
+        | delete | False | string |
+        | token | False | string |
