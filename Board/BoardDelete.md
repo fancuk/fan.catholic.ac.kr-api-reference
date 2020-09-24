@@ -1,4 +1,4 @@
-# fan.catholic.ac.kr-api-reference - 관리자 게시판 삭제 (요청)
+# fan.catholic.ac.kr-api-reference - 관리자 게시판 삭제 (완료)
 ## 의도: 게시판을 삭제 할 수 있습니다.
 
 fan.catholic.ac.kr 의 API Reference Repository 입니다.
@@ -34,3 +34,10 @@ fan.catholic.ac.kr 의 API Reference Repository 입니다.
         | key | explanation | type |
         |--- |--- |--- |
         | delete | True | string |
+        
+    - FAIL RESPONSE : 임시로 error_code 대신 유지하도록 하겠습니다. 400 409 같은 경우 delete : False이며 401경우 token : False 
+    
+        | key | explanation | type |
+        |--- |--- |--- |
+        | delete | False | string |
+        | token | False | string |
