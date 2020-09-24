@@ -40,8 +40,10 @@ fan.catholic.ac.kr 의 API Reference Repository 입니다.
         | edit | True | string |
         | token | 발급 토큰(클라이언트에서 저장하세요!) | string |
 
-    - FAIL RESPONSE
+        
+    - FAIL RESPONSE : 임시로 error_code 대신 유지하도록 하겠습니다. 400 409 같은 경우 edit : False이며 401경우 token : False 
     
         | key | explanation | type |
         |--- |--- |--- |
+        | edit | False | string |
         | token | False | string |
